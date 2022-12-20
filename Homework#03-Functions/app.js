@@ -103,19 +103,19 @@ if (typeof value === "object" || typeof value === "function")
             if (value instanceof dtypes[x])
             {
                 return dtypes[x];
-            }
+            }s
       }
     }
     
     return typeof value;
 }
-console.log(detect_data_type(12));
-console.log(detect_data_type('w3resource'));
-console.log(detect_data_type(false));
-console.log(detect_data_type());
-console.log(detect_data_type(null));
+// console.log(detect_data_type(12));
+// console.log(detect_data_type('w3resource'));
+// console.log(detect_data_type(false));
+// console.log(detect_data_type());
+// console.log(detect_data_type(null));
 
 
-// atm();
+atm();
 // previousHomework();
 // multiplies();
