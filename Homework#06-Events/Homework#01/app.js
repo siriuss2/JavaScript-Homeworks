@@ -1,13 +1,13 @@
 function createTable() {
-    var numColumns = prompt("Enter the number of columns:");
-    var numRows = prompt("Enter the number of rows:");
+    let numColumns = prompt("Enter the number of columns:");
+    let numRows = prompt("Enter the number of rows:");
   
-    var table = document.createElement("table");
+    let table = document.createElement("table");
   
-    for (var i = 0; i < numRows; i++) {
-      var row = document.createElement("tr");
-      for (var j = 0; j < numColumns; j++) {
-        var cell = document.createElement("td");
+    for (let i = 0; i < numRows; i++) {
+      let row = document.createElement("tr");
+      for (let j = 0; j < numColumns; j++) {
+        let cell = document.createElement("td");
         cell.innerHTML = "Row-" + (i+1) + " Column-" + (j+1);
         row.appendChild(cell);
       }
