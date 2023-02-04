@@ -26,10 +26,9 @@ async function getData(){
     let sumOfAverageGrades = sumOfTotalGrades / femaleNamesOver24.length;
     console.log("The students with grades higher than 3 are:", gradeHigher);
     console.log("The female names with an average grade of 5 are:", femaleAverageGrade);
-    console.log("The male students that live in Skopje and have over 18 years:",maleNamesThatLiveInSkopje);
+    console.log("The male students that live in Skopje and have over 18 years:", maleNamesThatLiveInSkopje);
     console.log("The students with the name that starts with B & have average grade over 2:", maleNamesStartWithB);
-    console.log("The sum of average grades of females over 24 is:",sumOfAverageGrades);
-
+    console.log("The sum of average grades of females over 24 is:", sumOfAverageGrades);
 
 }
 

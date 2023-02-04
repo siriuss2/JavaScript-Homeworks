@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li , a{
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightgray;
+}
+
+main{
+     width: 650px;
+}
+
+.mainUl{
+    display: flex;
+    list-style: none;
+    padding: 10px;
+}
+
+.mainUl > li{
+    padding: 10px;
+}
+
+.mainUl li a{
+    color: rgba(21, 21, 21, 0.429);
+}
+
+.searchBar{
+    margin-right: 15px;
+}
+
+.mainDiv{
+    margin-left: 450px;
+    margin-top: 100px;
+    background-color: lightgray;
+    display: inline-block;
+    padding: 50px;
+    color: rgba(21, 21, 21, 0.429);
+}
+
+.dropdownNav{
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+#dropdownSelect{
+    font-size: 17.5px;
+    color: white;
+    background-color: red;
+    border-radius: 8px;
+    padding: 8px;
+    text-align: center;
+}
+
+#sortBySelect{
+    font-size: 17.5px;
+    color: white;
+    background-color: red;
+    border-radius: 8px;
+    padding: 8px;
+    text-align: center;
+}
+
+.card{
+    display: flex;
+    /* justify-content: space-around; */
+    /* margin-top: 175px; */
+}
+
+.card-img-top{
+    width: 250px;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.card-body {
+    border-right: 0.5px solid gray;
+}
+
+.nextBtn{
+    margin-top: 50px;
+    margin-left: 700px;
+    color: blue;
+    background-color: white;
+    margin-bottom: 30px;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    padding: 5px;
+
+}
+
+.mainDiv h1{
+    padding: 15px;
+}
+
+.mainDiv h3{
+    padding: 20px;
+}
