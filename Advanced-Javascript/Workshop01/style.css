@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #f7d5fd;
+}
+
+.mainLogo{
+    max-width: 400px;
+    margin-left: 750px;
+    margin-top: 50px;
+}
+
+.cosmonautImg{
+    max-width: 250px;
+    margin-top: 200px;
+    margin-left: 300px;
+}
+
+.rocketImg{
+    max-width: 250px;
+    margin-top: 200px;
+    margin-left: 750px;
+}
+
+.tablePeople{
+    max-width: 900px;
+    margin-left: 600px;
+    border: 1px solid black;
+}
+
+.tablePeople thead tr th{
+    padding: 10px;
+}
+
+#peopleTableBody tr td{
+    padding: 3px;
+    width: 300px;
+}
+.nextPageBtn{
+    margin-top: 70px;
+    margin-left: 900px;
+    margin-bottom: 50px;
+    display: none;
+    border-radius: 8px;
+}
+
+.previousPageBtn{
+    display: none;
+    margin-left: 1000px;
+    margin-bottom: 50px;
+    margin-top: -80px;
+    border-radius: 8px;
+}
+
+.tableShips{
+    max-width: 900px;
+    margin-left: 530px;
+    border: 1px solid black;
+}
+
+.tableShips thead tr th{
+    padding: 10px;
+}
+
+.nextPageBtnForShips{
+    margin-left: 900px;
+    display: none;
+    border-radius: 8px;
+}
+.previousPageBtnForShips{
+    margin-left: 1000px;
+    display: none;
+    margin-top: -27px;
+    border-radius: 8px;
+}
+
+.tableShipsBody tr td{
+    padding: 3px;
+}
