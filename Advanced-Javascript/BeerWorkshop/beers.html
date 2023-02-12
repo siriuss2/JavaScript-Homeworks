@@ -22,12 +22,13 @@
             <button type="submit">Search</button>
         </form>
     </header>
+
     <nav class="dropdownNav">
         <select name="" id="dropdownSelect">
             <option value="PageSize">Page Size</option>
-            <option value="Show5">Show 5</option>
-            <option value="Show10">Show 10</option>
-            <option value="Show15">Show 15</option>
+            <option value="Show5" class="showFive">Show 5</option>
+            <option value="Show10" class="showTen">Show 10</option>
+            <option value="Show15" class="showFifteen">Show 15</option>
         </select>
         <select name="" id="sortBySelect">
             <option value="SortBy">Sort by</option>
@@ -36,41 +37,15 @@
             <option value="Bitterness">Bitterness</option>
         </select>
     </nav>
-
-
+    
     <div class="card">
-      
-        <div class="card-body">
-            <img src="assets/pivce.png" class="card-img-top" width="25px">
-          <h5 class="card-title">Beer name</h5>
-          <p class="card-text">Beer description.</p>
-          <a href="#" class="btn btn-primary">More Details</a>
-        </div>
-        <div class="card-body">
-            <img src="assets/pivce.png" class="card-img-top" width="25px">
-          <h5 class="card-title">Beer name</h5>
-          <p class="card-text">Beer description.</p>
-          <a href="#" class="btn btn-primary">More Details</a>
-        </div>
-       
-      
-        <div class="card-body">
-            <img src="assets/pivce.png" class="card-img-top" width="25px">
-          <h5 class="card-title">Beer name</h5>
-          <p class="card-text">Beer description.</p>
-          <a href="#" class="btn btn-primary">More Details</a>
-        </div>
         
-      
-        <div class="card-body">
-            <img src="assets/pivce.png" class="card-img-top" width="25px">
-          <h5 class="card-title">Beer name</h5>
-          <p class="card-text">Beer description.</p>
-          <a href="#" class="btn btn-primary">More Details</a>
-        </div>
+        <!-- <a href="" class="btn btn-primary" id="moreDetailsBtn">More Details</a> -->
     </div>
 
     <button class="nextBtn" type="submit">Next Page</button>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<script src="app.js"></script>
 </body>
 </html>

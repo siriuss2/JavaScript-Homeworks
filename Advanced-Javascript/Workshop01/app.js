@@ -26,7 +26,6 @@ async function getDataForAstronauts(pageNumber) {
   tablePeople.style.display = "inline-block";
   tableBodyPeople.innerHTML = "";
 
-
   for (i = 0; i < 10; i++) {
     tableBodyPeople.innerHTML += `
     <tr>
