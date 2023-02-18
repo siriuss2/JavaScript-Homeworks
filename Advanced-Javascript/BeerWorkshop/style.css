@@ -160,3 +160,19 @@ main{
     border-radius: 5px;
     /* transition: all 0.3s ease-in-out; */
   }
+
+  .beerImage{
+    display: flex;
+    width: 170px;
+    margin-top: 160px;
+    margin-left: 350px;
+  }
+
+.beerDescription{
+    max-width: 500px;
+    margin-left: 1000px;
+    margin-top: -690px;
+    max-height: 400px;
+  }
+
+  

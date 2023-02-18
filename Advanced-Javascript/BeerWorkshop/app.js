@@ -87,8 +87,9 @@ async function fetchDataById(id) {
 function moreDetailsDisplay(data){
   divCard.style.display = "none";
   moreDetailsContainer.innerHTML = `
-  <img src="${data.image_url}" alt="" class="singleBearImage">
-  <div class="all">
+  <div class = "singleBeerData"> 
+  <img src="${data.image_url}" alt="" class="beerImage">
+  <div class="beerDescription">
     <p class="name" style="font-weight: bold;">${data.name}</p>
     <hr>
     <p class="description">${data.description}</p>
@@ -105,6 +106,7 @@ function moreDetailsDisplay(data){
         .join("<hr>")}</p>
     </div>
   </div>
+</div>
   `
 
 }
