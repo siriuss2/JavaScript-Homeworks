@@ -1,84 +1,125 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-
-body{
-    background-color: #f7d5fd;
+body {
+  background-color: #5e5e5e;
 }
 
-.mainLogo{
-    max-width: 400px;
-    margin-left: 750px;
-    margin-top: 50px;
+.mainLogo {
+  max-width: 400px;
+  margin-left: 750px;
+  margin-top: 50px;
 }
 
-.cosmonautImg{
-    max-width: 250px;
-    margin-top: 200px;
-    margin-left: 300px;
+.cosmonautImg {
+  max-width: 250px;
+  margin-top: 10px;
+  margin-left: 300px;
 }
 
-.rocketImg{
-    max-width: 250px;
-    margin-top: 200px;
-    margin-left: 750px;
+.rocketImg {
+  max-width: 250px;
+  margin-top: 10px;
+  margin-left: 750px;
 }
 
-.tablePeople{
-    max-width: 900px;
-    margin-left: 600px;
-    border: 1px solid black;
+.tablePeople {
+  max-width: 900px;
+  margin-left: 500px;
+  padding: 10px;
+  padding-left: 50px;
 }
 
-.tablePeople thead tr th{
-    padding: 10px;
+.tablePeople thead tr th {
+  padding: 10px;
+  color: white;
+  border: 1px solid rgb(241, 228, 228);
 }
 
-#peopleTableBody tr td{
-    padding: 3px;
-    width: 300px;
-}
-.nextPageBtn{
-    margin-top: 70px;
-    margin-left: 900px;
-    margin-bottom: 50px;
-    display: none;
-    border-radius: 8px;
+#peopleTableBody tr td {
+  padding: 3px;
+  width: 300px;
+  color: whitesmoke;
+  border: 1px solid rgb(241, 228, 228);
 }
 
-.previousPageBtn{
-    display: none;
-    margin-left: 1000px;
-    margin-bottom: 50px;
-    margin-top: -80px;
-    border-radius: 8px;
+.tableShips {
+  max-width: 900px;
+  margin-left: 530px;
 }
 
-.tableShips{
-    max-width: 900px;
-    margin-left: 530px;
-    border: 1px solid black;
+.tableShips thead tr th {
+  padding: 10px;
+  color: white;
+  border: 1px solid rgb(241, 228, 228);
 }
 
-.tableShips thead tr th{
-    padding: 10px;
+.tableShipsBody tr td {
+  padding: 4px;
+  color: whitesmoke;
+  border: 1px solid rgb(241, 228, 228);
 }
 
-.nextPageBtnForShips{
-    margin-left: 900px;
-    display: none;
-    border-radius: 8px;
-}
-.previousPageBtnForShips{
-    margin-left: 1000px;
-    display: none;
-    margin-top: -27px;
-    border-radius: 8px;
+.button-33 {
+  background-color: rgba(140, 27, 245, 0.2);
+  border-radius: 100px;
+  box-shadow: rgba(211, 172, 248, 0.651) 0 -25px 18px -14px inset,
+    rgba(211, 172, 248, 0.651) 0 1px 2px, rgba(211, 172, 248, 0.651) 0 2px 4px,
+    rgba(178, 105, 247, 0.651) 0 8px 16px;
+  color: rgba(225, 194, 255, 0.877);
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
 }
 
-.tableShipsBody tr td{
-    padding: 3px;
+.button-33:hover {
+  box-shadow: rgba(211, 172, 248, 0.651) 0 -25px 18px -14px inset,
+    rgba(211, 172, 248, 0.651) 0 1px 2px, rgba(211, 172, 248, 0.651) 0 2px 4px,
+    rgba(211, 172, 248, 0.651) 0 4px 8px, rgba(211, 172, 248, 0.651) 0 8px 16px;
+  transform: scale(1.05) rotate(-1deg);
+}
+
+.nextPageBtnForShips {
+  margin-top: -23px;
+  margin-left: 1345px;
+  display: none;
+  border-radius: 8px;
+  padding: 5px;
+  margin-bottom: 50px;
+}
+.previousPageBtnForShips {
+  margin-left: 1230px;
+  display: none;
+  margin-top: -84px;
+  border-radius: 8px;
+  padding: 5px;
+  margin-bottom: 50px;
+}
+
+.nextPageBtn {
+  margin-left: 1315px;
+  margin-bottom: 50px;
+  display: none;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+.previousPageBtn {
+  display: none;
+  margin-left: 1200px;
+  margin-bottom: 50px;
+  margin-top: -84px;
+  border-radius: 8px;
+  padding: 5px;
 }
