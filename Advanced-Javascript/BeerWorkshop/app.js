@@ -72,7 +72,8 @@ async function getDataFromApi(){
 
 divCard.addEventListener("click", function (event) {
   if (event.target.id === "moreDetails") {
-    fetchDataById(event.target.getAttribute("data-id"));
+    console.log(event.target.parentElement.id);
+    fetchDataById(event.target.parentElement.id);
   }
 });
 
